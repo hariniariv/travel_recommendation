@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Overall Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Changed to a lighter, more colorful background */
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .destination {
+        width: 100%; /* Make destination sections full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+}
+
+
+/* Header and Navigation */
+header {
+    background-color: #00796b; /* Changed to a more vibrant color */
+    color: white;
+    padding: 15px 0; /* Increased padding for better aesthetics */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffeb3b; /* Changed hover color for better visibility */
+}
+
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ff5733;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #004d40; /* Changed to a darker shade for better contrast */
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #00796b; /* Changed to match the header color */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: #ff5733;
+    font-size: 2rem;
+    margin-bottom: -11px;
+}
+
+.destination {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#beach-recommendation, #temple-recommendation, #country-recommendation {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 600px; /* Set a max width for larger screens */
+    margin: 0 auto;
+}
+
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ff2a00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
